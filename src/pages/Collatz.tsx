@@ -32,7 +32,14 @@ const Collatz = () => {
         gap: '1rem',
       }}
     >
-      <h1>Collatz Conjecture</h1>
+      <h1
+      css={{
+        textAlign:'center',
+        margin:'2rem'
+      }}>
+        <span style={{ fontWeight: 'bold' }}>Collatz</span>{' '}
+        <span style={{ fontWeight: 'normal' }}>Conjecture</span>
+      </h1>
       <input
         type="number"
         value={input}

@@ -35,7 +35,14 @@ const Fibonacci = () => {
         gap: '1rem',
       }}
     >
-      <h1>Fibonacci Calculator</h1>
+      <h1
+      css={{
+        textAlign:'center',
+        margin:'2rem'
+      }}>
+        <span style={{ fontWeight: 'bold' }}>Fibonacci</span>{' '}
+        <span style={{ fontWeight: 'normal' }}>Calculator</span>
+      </h1>
       <input
         type="number"
         value={input}
